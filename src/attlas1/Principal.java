@@ -83,19 +83,18 @@ public class Principal {
 
         Subcripcion subcripcion2 = new Subcripcion();
 
-        Subcripcion2.setNumeroSubcripcion(
-                0);
+        subcripcion2.setNumeroSubcripcion(0);
         {
-            Subcripcion2.setClubDeportivo("");
-            Subcripcion2.setUsuario("");
-            Subcripcion2.setInicioSubcripcion(new Date("1000,02.08"));
-            Subcripcion2.setAbonoTotal(0);
+            subcripcion2.setClubDeportivo(ClubDeportivo3);
+            subcripcion2.setUsuario(usuario3);
+            subcripcion2.setInicioSubcripcion(new Date());
+            subcripcion2.setAbonoTotal(0);
 
             Subcripcion subcripcion3 = new Subcripcion();
             subcripcion3.setNumeroSubcripcion(0);
             subcripcion3.setClubDeportivo(ClubDeportivo3);
             subcripcion3.setUsuario(usuario3);
-            subcripcion3.setInicioSubcripcion(new Date("1000,02,08"));
+            subcripcion3.setInicioSubcripcion(new Date());
             subcripcion3.setAbonoTotal(0);
 
         }
